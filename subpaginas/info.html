@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informações — Somacaixas</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+  body {
+    background: #F5EFE6;
+    font-family: "Inter", sans-serif;
+  }
+
+  .tabs-container {
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  }
+
+  .nav-tabs .nav-link {
+    font-weight: 600;
+    color: #8b6f4e;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .nav-tabs .nav-link.active {
+    background: #F5EFE6;
+    color: #000;
+    font-weight: 700;
+  }
+
+  .tab-pane {
+    padding: 20px 10px;
+  }
+
+  h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+</style>
+
+</head>
+<body>
+
+<div class="container py-5">
+  <div class="tabs-container">
+
+    <!-- MENU TABS -->
+    <ul class="nav nav-tabs" id="infoTabs" role="tablist">
+
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="privacidade-tab" data-bs-toggle="tab" data-bs-target="#privacidade" type="button">
+          Política de Privacidade
+        </button>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="termos-tab" data-bs-toggle="tab" data-bs-target="#termos" type="button">
+          Termos de Serviço
+        </button>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="ajuda-tab" data-bs-toggle="tab" data-bs-target="#ajuda" type="button">
+          Ajuda
+        </button>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="faq-tab" data-bs-toggle="tab" data-bs-target="#faq" type="button">
+          FAQ
+        </button>
+      </li>
+    </ul>
+
+    <!-- CONTEÚDOS -->
+    <div class="tab-content mt-4" id="infoTabsContent">
+
+      <!-- ==================== PRIVACIDADE ==================== -->
+      <div class="tab-pane fade show active" id="privacidade">
+        <h3>Política de Privacidade</h3>
+
+        <p>A Somacaixas se compromete com a segurança e privacidade dos dados de seus clientes. Esta Política explica como coletamos, usamos e protegemos suas informações ao utilizar nossos serviços.</p>
+
+        <h5>1. Informações que coletamos</h5>
+        <p>Coletamos apenas dados essenciais para atendimento e finalização de pedidos:</p>
+        <ul>
+          <li>Nome completo</li>
+          <li>Telefone e e-mail</li>
+          <li>Endereço de entrega</li>
+          <li>Informações enviadas voluntariamente pelo cliente (detalhes de personalização, mensagens, etc.)</li>
+        </ul>
+
+        <h5>2. Como utilizamos seus dados</h5>
+        <p>Utilizamos seus dados para:</p>
+        <ul>
+          <li>Processar pedidos e personalizações</li>
+          <li>Enviar atualizações do pedido</li>
+          <li>Melhorar nosso atendimento</li>
+          <li>Cumprir obrigações legais e fiscais</li>
+        </ul>
+
+        <p><strong>Nunca vendemos ou compartilhamos seus dados com terceiros sem autorização.</strong></p>
+
+        <h5>3. Armazenamento e segurança</h5>
+        <p>Armazenamos suas informações em ambiente seguro com acesso restrito.</p>
+
+        <h5>4. Compartilhamento de dados</h5>
+        <p>Podemos compartilhar dados apenas com:</p>
+        <ul>
+          <li>Transportadoras e Correios</li>
+          <li>Plataformas de pagamento</li>
+          <li>Parceiros envolvidos no envio</li>
+        </ul>
+
+        <h5>5. Seus direitos</h5>
+        <p>Você pode solicitar:</p>
+        <ul>
+          <li>Acesso aos seus dados</li>
+          <li>Correção</li>
+          <li>Exclusão</li>
+          <li>Retirada de consentimento</li>
+        </ul>
+
+        <p>Contato: <strong>somacaixas@gmail.com</strong></p>
+      </div>
+
+      <!-- ==================== TERMOS DE SERVIÇO ==================== -->
+      <div class="tab-pane fade" id="termos">
+        <h3>Termos de Serviço</h3>
+
+        <p>Ao realizar um pedido com a Somacaixas, você concorda com os termos abaixo.</p>
+
+        <h5>1. Produtos artesanais</h5>
+        <p>Todas as caixas são feitas manualmente. Pequenas variações de cor ou textura são naturais.</p>
+
+        <h5>2. Pedidos personalizados</h5>
+        <ul>
+          <li>Produção inicia apenas após confirmação do pagamento.</li>
+          <li>Pedidos personalizados não podem ser cancelados após início.</li>
+          <li>Alterações só são aceitas antes da produção.</li>
+        </ul>
+
+        <h5>3. Pagamento</h5>
+        <p>Aceitamos Pix, transferência e outros métodos mediante disponibilidade.</p>
+
+        <h5>4. Prazo de produção e envio</h5>
+        <p>O prazo é informado antes da compra. A Somacaixas não se responsabiliza por atrasos das transportadoras.</p>
+
+        <h5>5. Trocas e devoluções</h5>
+        <p>Trocas são aceitas apenas em casos de defeito, danos ou desacordo com o pedido.</p>
+
+        <p>Contatos: <strong>somacaixas@gmail.com</strong></p>
+      </div>
+
+      <!-- ==================== AJUDA ==================== -->
+      <div class="tab-pane fade" id="ajuda">
+        <h3>Ajuda</h3>
+
+        <h5>Como faço um pedido?</h5>
+        <p>Entre em contato pelo WhatsApp ou Instagram informando o modelo desejado, medidas e quantidade.</p>
+
+        <h5>Vocês fazem caixas sob medida?</h5>
+        <p>Sim! Criamos modelos totalmente personalizados.</p>
+
+        <h5>Quanto tempo leva para ficar pronto?</h5>
+        <p>O prazo varia conforme o modelo. Informamos a estimativa antes da confirmação.</p>
+
+        <h5>Como acompanhar o pedido?</h5>
+        <p>Enviamos atualizações e o código de rastreamento após o envio.</p>
+
+        <h5>Contato de Suporte</h5>
+        <p>E-mail: <strong>somacaixas@gmail.com</strong></p>
+      </div>
+
+      <!-- ==================== FAQ ==================== -->
+      <div class="tab-pane fade" id="faq">
+        <h3>Perguntas Frequentes (FAQ)</h3>
+
+        <p><strong>1. Quais formas de pagamento aceitam?</strong><br>Pix, transferência e métodos adicionais conforme disponibilidade.</p>
+
+        <p><strong>2. Vocês fazem grande quantidade?</strong><br>Sim, produzimos para eventos, empresas e casamentos.</p>
+
+        <p><strong>3. Como funciona a personalização?</strong><br>Você informa medidas, revestimento, cor e detalhes — e criamos o projeto.</p>
+
+        <p><strong>4. Enviam para todo o Brasil?</strong><br>Sim, via transportadora e Correios.</p>
+
+        <p><strong>5. E se meu produto chegar danificado?</strong><br>Fazemos a troca sem burocracia.</p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
